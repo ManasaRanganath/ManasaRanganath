@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web Page</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #ffffff; 
+        }
+
+        #header {
+            background-color: #dbdbdb;
+            color: #000000;
+            padding: 10px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+        }
+
+        #logo {
+            margin-right: 20px;
+        }
+
+        #search-bar {
+            flex-grow: 1; 
+            padding: 10px;
+            border: #000000;
+            border-radius: 100px;
+            background-color: #fff; 
+        }
+
+        #buttons {
+            display: flex;
+            align-items: center;
+        }
+
+        .button {
+            background-color: #ffffff;
+            color: #000000;
+            padding: 8px 16px;
+            border: #000000;
+            border-radius: 100px;
+            margin-right: 10px;
+            cursor: pointer;
+        }
+
+        .button:hover {
+            background-color: #ffffff;
+        }
+        .article-container {
+            display: flex;
+            width: 100;
+        }
+        .recommended {
+            display: flex;
+            font-size: 34px;
+            font-weight: bold;
+            flex-basis: 80%;
+            padding: 20px;
+        }
+
+        .user-profile {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: #ccc;
+            margin-right: 10px;
+        }
+
+        .article-content {
+            flex-basis: 50%;
+            padding: 20px;
+        }
+    
+        .article-heading {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .article-text {
+            font-size: 12px;
+        }
+
+        .article-image {
+            float: right;
+            margin-left: 50px;
+            max-width: 30%;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .article-meta {
+            font-size: 14px;
+            color: #777;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+
+        .like-comment-container {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #ffffff;
+            color: #000000;
+            padding: 0;
+            border: none;
+            border-radius: 0px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+
+        .like-count {
+            font-size: 16px;
+        }
+
+        .comment-count {
+            font-size: 16px;
+        }
+
+        .save-button {
+            background-color: #ffffff;
+            color: #000000;
+            padding: 0;
+            border: none;
+            border-radius: 0px;
+            cursor: pointer;
+        }
+
+        a {
+            color: black; 
+            text-decoration: none; 
+        }
+
+        a:visited {
+            color: black;
+        }
+
+    </style>
+        </head>
+
+</style>
+    </head>
+        <body>
+            <div id="header">
+                <div id="logo">
+                    <img src="https://medium.com/?source=---two_column_layout_nav----------------------------------" alt=" " width="50">
+                </div>
+        <input type="text" id="search-bar" placeholder="Search...">
+        <div id="buttons">
+            <button class="button">🖋 Write</button>
+            <button class="button">🔔</button>
+            <button class="button">👤⌄</button>
+        </div>
+    </div>
+    <body>
+        <div class="article-container">
+            <div class="recommended"><a href="rec1.html">Recommended stories in "Web Development"</a>
+            </div>
+            <div class="article-content">
+        <div class="user-info">
+            <div class="user-profile"></div>
+            <p class="user-name"><a href="https://medium.com/@dberryhill?source=tag_recommended_feed---------0-107----------web_development----------4bec1ccc_c531_4a6e_bdf0_d7d99e705e71-------">Daniel Berryhill in UX Collective</a></p>
+        </div>
+                <h3 class="article-heading"><a href="article1.html">WCAG 2.2⎯It's finally here</a></h3>
+                <p class="article-text"><a href="https://medium.com/user-experience-design-1/wcag-2-2-its-finally-here-cd07862a192f?source=tag_recommended_feed---------0-107----------web_development----------4bec1ccc_c531_4a6e_bdf0_d7d99e705e71-------">The incredible long-awaited WCAG 2.2 standards are now the "Proposed Recommendation" for W3C. This is the type status before becoming...</a></p>
+                <img class="article-image" src="https://miro.medium.com/v2/resize:fill:200:134/0*K8SCTy2KHTNRIzMV" alt="Article Image">
+                <p class="article-meta">🔶 · 13 min read · Aug26</p>
+                <div class="like-comment-container">
+                    <div class="like-count"><a herf = "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fuser-experience-design-1%2Fcd07862a192f&operation=register&redirect=https%3A%2F%2Fuxdesign.cc%2Fwcag-2-2-its-finally-here-cd07862a192f&user=Daniel+Berryhill&userId=78df19abc090&source=-----cd07862a192f----0-107----------web_development------clap_footer----4bec1ccc_c531_4a6e_bdf0_d7d99e705e71-------">👏360</a></div>
+                    <div class="comment-count"><a herf = "https://medium.com/user-experience-design-1/wcag-2-2-its-finally-here-cd07862a192f?responsesOpen=true&sortBy=REVERSE_CHRON&source=tag_recommended_feed---------0-107----------web_development----------4bec1ccc_c531_4a6e_bdf0_d7d99e705e71-------">💬 20</a></div>
+                    <button class="save-button"><a herf = "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Fcd07862a192f&operation=register&redirect=https%3A%2F%2Fuxdesign.cc%2Fwcag-2-2-its-finally-here-cd07862a192f&source=---------0-107----------web_development------bookmark_preview----4bec1ccc_c531_4a6e_bdf0_d7d99e705e71-------">    📥   </a></button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="article-container">
+            <div class="recommended">
+            </div>
+            <div class="article-content">
+        <div class="user-info">
+            <div class="user-profile"></div>
+            <p class="user-name"><a href="https://medium.com/@dberryhill?source=tag_recommended_feed---------0-107----------web_development----------4bec1ccc_c531_4a6e_bdf0_d7d99e705e71-------">Afaque Umer in Artificial Intelligence in Plain English</a></p>
+        </div>
+                <h3 class="article-heading"><a href="article1.html">🦜️ LangChain + Streamlit🔥+ Llama 🦙: Bringing Conversational AI to Your Local Machine 🤯</a></h3>
+                <p class="article-text"><a href="https://medium.com/user-experience-design-1/wcag-2-2-its-finally-here-cd07862a192f?source=tag_recommended_feed---------0-107----------web_development----------4bec1ccc_c531_4a6e_bdf0_d7d99e705e71-------">Integrating Open Source LLMs and LangChain for Free Generative Question Answering (No API Key required)...</a></p>
+                <img class="article-image" src="https://miro.medium.com/v2/resize:fill:200:134/1*x0lfWPnMGZb9o_Y9PdLo7Q.png" alt="Article Image">
+                <p class="article-meta">🔶 · 14 min read · Jun23</p>
+                <div class="like-comment-container">
+                    <div class="like-count"><a herf = "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fuser-experience-design-1%2Fcd07862a192f&operation=register&redirect=https%3A%2F%2Fuxdesign.cc%2Fwcag-2-2-its-finally-here-cd07862a192f&user=Daniel+Berryhill&userId=78df19abc090&source=-----cd07862a192f----0-107----------web_development------clap_footer----4bec1ccc_c531_4a6e_bdf0_d7d99e705e71-------">👏2.9k</a></div>
+                    <div class="comment-count"><a herf = "https://medium.com/user-experience-design-1/wcag-2-2-its-finally-here-cd07862a192f?responsesOpen=true&sortBy=REVERSE_CHRON&source=tag_recommended_feed---------0-107----------web_development----------4bec1ccc_c531_4a6e_bdf0_d7d99e705e71-------">💬 31</a></div>
+                    <button class="save-button"><a herf = "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Fcd07862a192f&operation=register&redirect=https%3A%2F%2Fuxdesign.cc%2Fwcag-2-2-its-finally-here-cd07862a192f&source=---------0-107----------web_development------bookmark_preview----4bec1ccc_c531_4a6e_bdf0_d7d99e705e71-------">    📥   </a></button>
+                </div>
+            </div>
+        </div>
+        <nav id="nav-links">
+            <ul>
+                <a href="#">Help </a><a href="#">Status </a><a href="#">Writers </a><a href="#">Blogs </a><a href="#">Careers </a><a href="#">Privacy </a><a href="#">Terms </a><a href="#">About </a><a href="#">Text-to-Speech </a><a href="#">Teams </a>
+            </ul>
+        </nav>
+</body>
+</html>

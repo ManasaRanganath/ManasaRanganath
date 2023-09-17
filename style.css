@@ -1,0 +1,50 @@
+/* ... (previous styles) */
+
+/* Adjustments for right-aligned buttons */
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.button-container {
+    display: flex;
+    align-items: center;
+}
+
+button.write-button {
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.notifications img,
+.user-profile img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+#nav-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+#nav-links ul li {
+    margin-right: 10px;
+}
+
+#nav-links ul li:last-child {
+    margin-right: 0;
+}
+
+#nav-links ul li a {
+    text-decoration: none;
+    color: black;
+}
+
